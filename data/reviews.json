@@ -1,0 +1,32 @@
+{
+  "cafe_name": "Sharky's Café",
+  "address": "Koloniestraße 143, 13359 Berlin-Gesundbrunnen",
+  "google_rating": "N/A",
+  "total_reviews": "0",
+  "research_notes": "Minimal online presence. No Google reviews found. Business operates as a Spätkauf (convenience store) with limited digital footprint.",
+  "last_updated": "2024-10-24",
+  "reviews": [],
+  "features": [
+    "Guter Kaffee",
+    "Frühstück",
+    "Allein speisen",
+    "Nachbarschafts-Treff"
+  ],
+  "social_media": {
+    "instagram": null,
+    "facebook": null,
+    "tripadvisor": null,
+    "foursquare": {
+      "url": "https://foursquare.com/v/sharkys-caf%C3%A9",
+      "checkins": "24",
+      "reviews": "0"
+    }
+  },
+  "business_type": "Café / Spätkauf",
+  "neighborhood": "Gesundbrunnen",
+  "postal_code": "13359",
+  "coordinates": {
+    "latitude": "52.5568",
+    "longitude": "13.3775"
+  }
+}

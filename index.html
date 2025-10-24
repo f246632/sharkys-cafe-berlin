@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sharky's Café - Ihr gemütliches Nachbarschaftscafé in Berlin-Gesundbrunnen. Genießen Sie exzellenten Kaffee und gute Atmosphäre.">
+    <meta name="keywords" content="Café, Berlin, Gesundbrunnen, Kaffee, Breakfast, Coffee Shop, Sharky's">
+    <meta name="author" content="Sharky's Café">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://f246632.github.io/sharkys-cafe-berlin/">
+    <meta property="og:title" content="Sharky's Café - Berlin Gesundbrunnen">
+    <meta property="og:description" content="Ihr gemütliches Nachbarschaftscafé in Berlin-Gesundbrunnen">
+    <meta property="og:image" content="./images/source/cafe-image-2.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://f246632.github.io/sharkys-cafe-berlin/">
+    <meta property="twitter:title" content="Sharky's Café - Berlin Gesundbrunnen">
+    <meta property="twitter:description" content="Ihr gemütliches Nachbarschaftscafé in Berlin-Gesundbrunnen">
+    <meta property="twitter:image" content="./images/source/cafe-image-2.jpg">
+
+    <title>Sharky's Café - Berlin Gesundbrunnen | Kaffee & Mehr</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Sharky's Café",
+      "image": "./images/source/cafe-image-2.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Koloniestraße 143",
+        "addressLocality": "Berlin",
+        "postalCode": "13359",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "52.5568",
+        "longitude": "13.3775"
+      },
+      "url": "https://f246632.github.io/sharkys-cafe-berlin/",
+      "servesCuisine": "Café, Coffee, Breakfast",
+      "priceRange": "€€"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-coffee"></i>
+                <span>Sharky's Café</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#offerings" class="nav-link">Angebot</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Sharky's Café</h1>
+            <p class="hero-subtitle">Ihr Nachbarschaftscafé im Herzen von Gesundbrunnen</p>
+            <div class="hero-buttons">
+                <a href="#offerings" class="btn btn-primary">Unser Angebot</a>
+                <a href="#location" class="btn btn-secondary">Wie Sie uns finden</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Willkommen bei Sharky's Café</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Authentisches Berlin-Erlebnis</h3>
+                    <p>
+                        Im Herzen von Berlin-Gesundbrunnen gelegen, ist Sharky's Café mehr als nur ein Café –
+                        es ist ein Treffpunkt für die Nachbarschaft, ein Ort zum Entspannen und Genießen.
+                    </p>
+                    <p>
+                        Seit Jahren sind wir eine feste Institution in der Koloniestraße und bieten unseren
+                        Gästen eine gemütliche Atmosphäre, freundlichen Service und Produkte für jeden Geschmack.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-coffee"></i>
+                            <h4>Guter Kaffee</h4>
+                            <p>Frisch gebrüht und aromatisch</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-bread-slice"></i>
+                            <h4>Frühstück</h4>
+                            <p>Perfekt für einen guten Start</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-user"></i>
+                            <h4>Allein Speisen</h4>
+                            <p>Gemütlich und entspannt</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <h4>Nachbarschafts-Treff</h4>
+                            <p>Lokale Atmosphäre</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/source/cafe-image-3.jpg" alt="Sharky's Café Interior" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offerings Section -->
+    <section id="offerings" class="offerings">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Angebot</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Was Sie bei uns finden</p>
+            </div>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Kaffee & Getränke</h3>
+                    <p>Frisch gebrühter Kaffee, Espresso, Cappuccino und eine große Auswahl an heißen und kalten Getränken</p>
+                    <ul class="offering-list">
+                        <li><i class="fas fa-check"></i> Espresso & Americano</li>
+                        <li><i class="fas fa-check"></i> Cappuccino & Latte</li>
+                        <li><i class="fas fa-check"></i> Tee-Spezialitäten</li>
+                        <li><i class="fas fa-check"></i> Erfrischungsgetränke</li>
+                    </ul>
+                </div>
+                <div class="offering-card">
+                    <div class="card-icon">
+                        <i class="fas fa-croissant"></i>
+                    </div>
+                    <h3>Frühstück & Snacks</h3>
+                    <p>Perfekt für einen entspannten Start in den Tag oder eine kleine Pause zwischendurch</p>
+                    <ul class="offering-list">
+                        <li><i class="fas fa-check"></i> Frühstücks-Specials</li>
+                        <li><i class="fas fa-check"></i> Frische Backwaren</li>
+                        <li><i class="fas fa-check"></i> Sandwiches</li>
+                        <li><i class="fas fa-check"></i> Süße Leckereien</li>
+                    </ul>
+                </div>
+                <div class="offering-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h3>Convenience</h3>
+                    <p>Ihre Nachbarschaftsadresse für den täglichen Bedarf</p>
+                    <ul class="offering-list">
+                        <li><i class="fas fa-check"></i> Lebensmittel-Basics</li>
+                        <li><i class="fas fa-check"></i> Snacks & Süßigkeiten</li>
+                        <li><i class="fas fa-check"></i> Getränke-Auswahl</li>
+                        <li><i class="fas fa-check"></i> Praktische Produkte</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Galerie</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Impressionen aus dem Sharky's Café</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="./images/source/cafe-image-2.jpg">
+                    <img src="./images/source/cafe-image-2.jpg" alt="Sharky's Café Außenansicht" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-3.jpg">
+                    <img src="./images/source/cafe-image-3.jpg" alt="Café Innenraum" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-4.jpg">
+                    <img src="./images/source/cafe-image-4.jpg" alt="Gemütliche Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-5.jpg">
+                    <img src="./images/source/cafe-image-5.jpg" alt="Café Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-6.jpg">
+                    <img src="./images/source/cafe-image-6.jpg" alt="Auswahl und Ambiente" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-7.jpg">
+                    <img src="./images/source/cafe-image-7.jpg" alt="Sharky's Café" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-8.jpg">
+                    <img src="./images/source/cafe-image-8.jpg" alt="Café Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-9.jpg">
+                    <img src="./images/source/cafe-image-9.jpg" alt="Einblicke" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="./images/source/cafe-image-10.jpg">
+                    <img src="./images/source/cafe-image-10.jpg" alt="Sharky's Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">So finden Sie uns</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Adresse</h4>
+                            <p>Koloniestraße 143<br>13359 Berlin-Gesundbrunnen<br>Deutschland</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-subway"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Öffentliche Verkehrsmittel</h4>
+                            <p>S-Bahn: Gesundbrunnen<br>U-Bahn: U8 Pankstraße<br>Tram: M13, 50</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Öffnungszeiten</h4>
+                            <p>Besuchen Sie uns zu den<br>üblichen Geschäftszeiten.<br>Wir freuen uns auf Sie!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.8471632890824!2d13.375257476873968!3d52.55682197207448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851e5a5e12567%3A0x4cd3c5c4f5b5e5e5!2sKoloniestr.%20143%2C%2013359%20Berlin!5e0!3m2!1sde!2sde!4v1698234567890!5m2!1sde!2sde"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Wir freuen uns von Ihnen zu hören</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Besuchen Sie uns</h3>
+                    <p>Kommen Sie vorbei und genießen Sie die gemütliche Atmosphäre unseres Cafés im Herzen von Gesundbrunnen.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>Koloniestraße 143, 13359 Berlin</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Telefon</strong>
+                                <p>Rufen Sie uns an für Fragen</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>E-Mail</strong>
+                                <p>Schreiben Sie uns gerne</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Nachricht senden</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+                            <label for="email">E-Mail</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefon (optional)">
+                            <label for="phone">Telefon</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                            <label for="message">Nachricht</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-coffee"></i> Sharky's Café</h4>
+                    <p>Ihr Nachbarschaftscafé in Berlin-Gesundbrunnen seit Jahren. Authentisch, gemütlich und herzlich.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Schnelllinks</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über Uns</a></li>
+                        <li><a href="#offerings">Angebot</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#location">Standort</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Koloniestraße 143, 13359 Berlin</p>
+                    <p><i class="fas fa-phone"></i> Rufen Sie uns an</p>
+                    <p><i class="fas fa-envelope"></i> Schreiben Sie uns</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Folgen Sie uns</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sharky's Café Berlin. Alle Rechte vorbehalten.</p>
+                <p>Made with <i class="fas fa-heart"></i> in Berlin</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Gallery Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery.js"></script>
+</body>
+</html>
